@@ -1,0 +1,28 @@
+.profile-header-wrapper {
+  background-color: #53443F;
+  }
+
+.container {
+  text-align: center;
+  color: white;
+  font-family: "Raleway", "Helvetica", sans-serif;
+    }
+
+.profile-header-infos h1 {
+    font-weight: bolder;
+    letter-spacing: -1px;
+    font-size: 28px
+      }
+
+.profile-header-infos h2 {
+      font-weight: lighter;
+      letter-spacing: -1px;
+      font-size: 18px;
+      opacity: 0.4;
+      }
+
+.product-desc {
+  text-align: left;
+  margin-left: 10px;
+}
+    /* Your profile header CSS code here */

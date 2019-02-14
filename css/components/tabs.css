@@ -1,0 +1,35 @@
+.tabs {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  width: 900px;
+  padding:0px;
+}
+
+.tab {
+  background-color: #756A66;
+  flex-grow: 0.25;
+}
+
+.tab:last-child {
+  border-top-right-radius: 15px
+}
+
+.tab:first-child {
+  border-top-left-radius: 15px
+}
+
+.tab:hover {
+  opacity: 0.6;
+}
+
+.tab.active {
+  background-color: white;
+  color: black;
+}
+
+.tab-count {
+  color: background-color: #756A66;
+  opacity: 0.4;
+  font-weight: bolder;
+}/* Your tabs CSS code here */
